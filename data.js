@@ -25,7 +25,7 @@ const data = {
             {
                 "text": "Inspiratieboek",
                 "title": "Mijn PDF met inspiratie (login, functions, result)",
-                "href": "./assignments/assignment1/documents/a1-inspiration.pdf",
+                "href": "./assignments/assignment1/documents/Inspiratieboek.pdf",
                 "target": "_blank"
             },
             {
