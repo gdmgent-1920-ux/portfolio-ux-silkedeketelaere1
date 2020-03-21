@@ -57,12 +57,12 @@ const data = {
             {
                 "text": "Adobe XD",
                 "title": "Mijn Adobe XD document",
-                "href": "./assignments/assignment2/documents/a2-visual-designs.xd",
+                "href": "./assignments/assignment2/documents/Opdracht 2.xd",
             },
             {
                 "text": "Adobe XD Prototype",
                 "title": "Mijn Adobe XD prototype (share link)",
-                "href": "https://xd.adobe.com/view/e4c35170-a2f7-4c10-753b-ba7c449703ec-92f2/grid",
+                "href": "https://xd.adobe.com/view/d016ad43-1c0b-49dc-5c39-5a0ff1c4b8c9-a627/screen/7af453b1-b2e1-4d8f-a815-a9e1a66978b0/List-meer-weergeven?fbclid=IwAR0NEg8oZOBEOCLLdidget0S5C4alJSMI-o0CHAvxTcaio30P_jHjm4cqfg",
                 "target": "_blank"
             }
         ]
