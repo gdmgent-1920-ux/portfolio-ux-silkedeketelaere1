@@ -51,7 +51,7 @@ const data = {
             {
                 "text": "Inspiratieboek",
                 "title": "Mijn PDF met inspiratie",
-                "href": "./assignments/assignment2/documents/a2-inspiration.pdf",
+                "href": "./assignments/assignment2/documents/Inspiratieboek_opdracht2.pdf",
                 "target": "_blank"
             },
             {
