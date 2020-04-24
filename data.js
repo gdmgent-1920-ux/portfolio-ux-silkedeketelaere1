@@ -77,7 +77,7 @@ const data = {
         {
             "text": "Researchdocument",
             "title": "Mijn PDF met research",
-            "href": "./assignments/assignment3/documents/a3-research.pdf",
+            "href": "./assignments/assignment3/documents/research.pdf",
             "target": "_blank"
         },
         {
