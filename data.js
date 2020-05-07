@@ -77,13 +77,13 @@ const data = {
         {
             "text": "Researchdocument",
             "title": "Mijn PDF met research",
-            "href": "./assignments/assignment3/documents/research.pdf",
+            "href": "./assignments/assignment3/documents/research_1.pdf",
             "target": "_blank"
         },
         {
             "text": "Adobe XD (met Wireframes)",
             "title": "Mijn Adobe XD document met de wireframes van mijn applicatie",
-            "href": "./assignments/assignment3/documents/Opdracht 3 - Wireframes mobile and web.xd",
+            "href": "./assignments/assignment3/documents/Opdracht 3 - Wireframes mobile en web.xd",
         },
         {
             "text": "Adobe XD (met Visual Designs)",
