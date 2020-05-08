@@ -77,7 +77,7 @@ const data = {
         {
             "text": "Researchdocument",
             "title": "Mijn PDF met research",
-            "href": "./assignments/assignment3/documents/research_1.pdf",
+            "href": "./assignments/assignment3/documents/researchdocument.pdf",
             "target": "_blank"
         },
         {
@@ -88,7 +88,7 @@ const data = {
         {
             "text": "Adobe XD (met Visual Designs)",
             "title": "Mijn Adobe XD document voor de visual designs van mijn applicatie",
-            "href": "./assignments/assignment3/documents/a3-visual-designs.xd",
+            "href": "./assignments/assignment3/documents/Opdracht 3 - Design mobile en web.xd",
         },
         {
             "text": "Website",
