@@ -1,0 +1,87 @@
+/*Kleuren*/
+
+:root {
+    --color-black: #000;
+    --color-white: #FFF;
+    --color-darkblue: #465E73;
+    --color-lightblue: #B9D0DE;
+    --color-blueh2: #79A4BE;
+    --color-lightgreen: #7B8B03;
+    --color-greenh3: #4F5802;
+    --color-brown: #583D1D;
+}
+
+/*Tekst styles*/
+
+h1{
+    font-family: franklin-gothic-urw-cond,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 5rem;
+    text-align: center;
+    color: var(--color-lightgreen);
+  }
+  
+  .pagina{
+    font-family: franklin-gothic-urw-cond,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 4rem;
+    text-align: center;
+    color: var(--color-lightgreen);
+  }
+  
+  .pagina-uitleg{
+    text-align: center;
+  }
+  
+  h2{
+    font-family: agency-fb,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--color-darkblue);
+    text-align: center;
+    font-size: 2.3rem;
+  }
+  
+  h3{
+    font-family: agency-fb,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--color-blueh2);
+    font-size: 2rem;
+  }
+
+  .onderschrift{
+    text-align: center;
+  }
+  
+  p{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-black);
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .list h3{
+    color: var(--color-greenh3);
+  }
+  
+  .list h2{
+    color: var(--color-blueh2);
+    margin-top: 4rem;
+  }
+
+  footer p{
+    color: white;
+  }
+
+  footer a{
+    text-transform: none;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  

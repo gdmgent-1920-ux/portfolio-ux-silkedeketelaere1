@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.typekit.net/tlh5msg.css">
+	<link rel="stylesheet" href="./css/styles.css">
+	<script>
+		const toggleNavigationIcon = (x) => {
+			const navLinks = document.querySelector('.nav-links');
+			navLinks.classList.toggle('toggled');
+			x.classList.toggle('toggled');
+		}
+	</script>
+	<title>Contact</title>
+</head>
+
+<body>
+
+	<!-- Navigation -->
+	<nav>
+		<div class="header container-fluid">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-8 col-md-4 logo"></div>
+					<div class="col-4 col-md-8">
+						<div class="row justify-content-end align-items-center">
+							<div class="nav-links">
+								<ul>
+									<li>
+										<a href="index.html" title="De homepagina">Home</a>
+									</li>
+									<li>
+										<a href="webshop.html" title="De webshop">Webshop</a>
+									</li>
+									<li>
+										<a href="configuratie.html" title="Zwemgelegenheid configureren">Configuratie</a>
+									</li>
+									<li>
+										<a href="realisatie.html" title="Gerealiseerde zwemgelegenheden">Realisatie</a>
+									</li>
+									<li>
+										<a href="contact.html" title="Contacteer ons">Contact</a>
+									</li>
+								</ul>
+							</div>
+							<div class="nav-toggler" onclick="toggleNavigationIcon(this)">
+								<div class="bar1"></div>
+								<div class="bar2"></div>
+								<div class="bar3"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>

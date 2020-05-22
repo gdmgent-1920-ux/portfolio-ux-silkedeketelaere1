@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/tlh5msg.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script>
+        const toggleNavigationIcon = (x) => {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('toggled');
+            x.classList.toggle('toggled');
+        }
+    </script>
+    <title>Webshop zwemgelegenheden</title>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="header container-fluid">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-8 col-md-4 logo"></div>
+                    <div class="col-4 col-md-8">
+                        <div class="row justify-content-end align-items-center">
+                            <div class="nav-links">
+                                <ul>
+                                    <li>
+                                        <a href="index.html" title="De homepagina">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="webshop.html" title="De webshop">Webshop</a>
+                                    </li>
+                                    <li>
+                                        <a href="configuratie.html"
+                                            title="Zwemgelegenheid configureren">Configuratie</a>
+                                    </li>
+                                    <li>
+                                        <a href="realisatie.html" title="Gerealiseerde zwemgelegenheden">Realisatie</a>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html" title="Contacteer ons">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="nav-toggler" onclick="toggleNavigationIcon(this)">
+                                <div class="bar1"></div>
+                                <div class="bar2"></div>
+                                <div class="bar3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="list">
+            <div>
+                <h2 class="onderschrift">Zwemgelegenheden</h3>
+            </div>
+            <div class="row align-items-top">
+                <div class="col-12 col-md-4">
+                    <img src="images/photo-1539823903325-6e1b5630081a.jpg" alt="">
+                    <h3>Zwemvijver</h3>
+                    <p>Een natuurlijke zwemvijver is een bad waarin de natuur zijn werk zelf doet. Deze bestaat steeds
+                        uit 2 delen: een zwemzone en een filterzone(moeraszone). Deze filterzone kan zowel rechtstreeks
+                        aansluiten op de zwemzone alsook apart van de zwemzone liggen.</p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="images/photo-1560747571-79f71076f92f.jpg" alt="">
+                    <h3>Hybride zwemvijver</h3>
+                    <p>Een hybride zwemvijver combineert de voordelen van een zwemvijver met die van een natuurlijk
+                        zwembad. Het water is het hele jaar door kristalhelder. Een hybride bad is het hele jaar door
+                        een plaatje: dé reden om het dicht bij de woning te integreren.</p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="images/photo-1536745511564-a5fa6e596e7b.jpg" alt="">
+                    <h3>Biozwembad</h3>
+                    <p>Een bio-zwembad is een 100 % chloorvrij natuurlijk zwembad in de ruime zin van het woord. Het
+                        water van een bio-zwembad is kristalhelder en zijdezacht. De filtering van een bio-zwembad
+                        gebeurt volledig mechanisch het hele jaar door.
+                        Door gebruik te maken van nano-filtratie en hydrolyse gaan wij alle levende organismen in het
+                        water afdoden.</p>
+                </div>
+            </div>
+        </div>
+    </div>
