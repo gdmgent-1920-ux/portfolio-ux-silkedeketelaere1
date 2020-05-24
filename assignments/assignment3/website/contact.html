@@ -8,6 +8,8 @@
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.typekit.net/tlh5msg.css">
 	<link rel="stylesheet" href="./css/styles.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+		integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	<script>
 		const toggleNavigationIcon = (x) => {
 			const navLinks = document.querySelector('.nav-links');
@@ -18,7 +20,7 @@
 	<title>Contact</title>
 </head>
 
-<body>
+<body class="contactafb">
 
 	<!-- Navigation -->
 	<nav>
@@ -37,7 +39,8 @@
 										<a href="webshop.html" title="De webshop">Webshop</a>
 									</li>
 									<li>
-										<a href="configuratie.html" title="Zwemgelegenheid configureren">Configuratie</a>
+										<a href="configuratie.html"
+											title="Zwemgelegenheid configureren">Configuratie</a>
 									</li>
 									<li>
 										<a href="realisatie.html" title="Gerealiseerde zwemgelegenheden">Realisatie</a>
@@ -58,3 +61,43 @@
 			</div>
 		</div>
 	</nav>
+	<div class="contactachtergrond">
+		<div class="container">
+			<div class="contactformulier">
+				<h1 class="pagina">Contact</h1>
+				<p><i class="fas fa-user"></i><input type="text" class="form-control" placeholder="NAAM"></p> <br>
+				<p><i class="fas fa-envelope"></i><input type="text" class="form-control" placeholder="EMAIL"></p> <br>
+				<p><i class="fas fa-reply"></i><input type="text" class="form-control" placeholder="BERICHT"></p>
+				<div class="knop">
+					<button type="button">OFFERTE</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+
+<div class="container-contact">
+	<div class= "col-12 col-md-6">
+		<p><i class="fas fa-calendar-alt"></i>Ma - Za: op afspraak</p>
+		<p>Zondag en feestdagen: gesloten</p>
+		<p><i class="fas fa-clock"></i>9u - 12u     14u - 17u</p>
+	</div>
+	<div class= "col-12 col-md-6">
+		<p><i class="fas fa-map-marker-alt"></i>Industrieweg 232, 9030 Gent</p>
+		<p><i class="fas fa-mobile-alt"></i>09 234 86 00</p>
+		<p><i class="fas fa-envelope"></i>info@biozwemmen.be</p>
+	</div>
+</div>
+<footer class="contactfooter">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-12 col-md-8">
+				<p>© Biozwemmen. Alle rechten voorbehouden.</p>
+			</div>
+			<div class="col-0col-md-4">
+				<p><a href=#>Privacy</a> <a href=#>Voorwaarden</a></p>
+			</div>
+		</div>
+	</div>
+</footer>

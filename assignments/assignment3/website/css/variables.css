@@ -54,6 +54,15 @@ h1{
     font-size: 2rem;
   }
 
+ .conf{
+    text-align: center;
+  }
+
+  .confp{
+    color: var(--color-lightgreen);
+    font-weight: 600;
+  }
+
   .onderschrift{
     text-align: center;
   }

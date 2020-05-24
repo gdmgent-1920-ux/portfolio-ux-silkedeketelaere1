@@ -169,7 +169,11 @@ nav ul li {
   margin-top: 2rem;
 }
 
-/* Webshop zwemgelegenheden */
+.keuze{
+  margin-bottom: 12rem;
+}
+
+/* Webshop zwemgelegenheden/ accessoires */
 
 .list img{
   width: 100%;
@@ -190,6 +194,162 @@ nav ul li {
   margin-top: 2rem;
 }
 
+.list{
+  margin-bottom: 7.4rem;
+}
+
+/* Configuratie */
+
+.confp input{
+  border-radius: 0.5rem;
+  height: 2rem;
+  width: 6rem;
+  margin-left: 1rem;
+  padding-left: 1rem;
+}
+
+.dot1{
+  height: 40px;
+  width: 40px;
+  background-color: #56DEF3;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0.5rem;
+}
+
+.dot2{
+  height: 40px;
+  width: 40px;
+  background-color: #4E4E4E;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0.5rem;
+}
+
+.dot3{
+  height: 40px;
+  width: 40px;
+  background-color: #F5F5F5;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0.5rem;
+}
+.dot4{
+  height: 40px;
+  width: 40px;
+  background-color: #0078AE;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0.5rem;
+}
+.dot5{
+  height: 40px;
+  width: 40px;
+  background-color: #00F8BD;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0.5rem;
+}
+
+.kleurtjes, .keuze-conf{
+  text-align: center;
+}
+
+.keuze-conf select{
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-bottom: 4rem;
+}
+
+/* Realisaties */
+
+.afbeeldingen-rea img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 0.8rem;
+  margin-top: 1rem;
+}
+
+/* Contact */
+
+.container .contactformulier {
+  background-color: #F2F2F2;
+  border-radius: 1.5rem;
+}
+
+.contactformulier input{
+  border: none;
+  border-bottom: 1px solid var(--color-lightgreen);
+  font-size: 1.5rem;
+  width: 400px;
+  background-color: #F2F2F2;
+}
+
+.contactformulier p :last-child{
+  margin-bottom: 0.5rem;
+}
+
+.contactformulier{
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.contactafb{
+  background: url(../images/photo-1560747571-79f71076f92f.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.contactformulier p i{
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  color: var(--color-greenh3);
+}
+
+button{
+  border-radius: 0.5rem;
+  padding: 0.5rem 2rem;
+  font-size: 1.2rem;
+  background-color: #B9D0DE;
+  color: white;
+  font-weight: 500;
+  border: 1px solid #79A4BE;
+}
+
+button:hover{
+  background-color: var(--color-greenh3);
+}
+
+.knop{
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.contactformulier .knop{
+  text-align: center;
+  margin-bottom: 0.5rem;
+  margin-top: 4rem;
+}
+
+.container-contact{
+  display: flex;
+  background-color: var(--color-lightblue);
+  margin-top: 9.8rem;
+  padding: 1rem;
+}
+
+.container-contact i{
+  color: var(--color-darkblue);
+  font-size: 1.5rem;
+  margin-right: 2rem;
+}
+
+.container-contact p{
+  color:white;
+}
+
+/* Footer */
+
 footer{
   display: flex;
   flex-direction: row;
@@ -197,7 +357,9 @@ footer{
   margin-top: 2rem;
 }
 
-.footerrechts{
-  
+.contactfooter{
+  display: flex;
+  flex-direction: row;
+  background-color: var(--color-darkblue);
+  margin-top: 0rem;
 }
-
