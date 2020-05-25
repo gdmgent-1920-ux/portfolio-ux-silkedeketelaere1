@@ -31,28 +31,44 @@ h1{
     font-size: 4rem;
     text-align: center;
     color: var(--color-lightgreen);
+    margin-top: 7rem;
+  }
+
+  .contactformulier .pagina{
+    padding-top: 2rem;
+    margin-top: 7rem;
   }
   
   .pagina-uitleg{
     text-align: center;
   }
   
-  h2{
-    font-family: agency-fb,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: var(--color-darkblue);
-    text-align: center;
-    font-size: 2.3rem;
+h2{
+  font-family: agency-fb,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--color-darkblue);
+  text-align: center;
+  font-size: 2.3rem;
+}
+
+  .list h2{
+    color: var(--color-blueh2);
+    margin-top: 4rem;
+  }
+
+  .list1 h2{
+    color: var(--color-blueh2);
+    margin-top: 4rem;
   }
   
-  h3{
-    font-family: agency-fb,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: var(--color-blueh2);
-    font-size: 2rem;
-  }
+h3{
+  font-family: agency-fb,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--color-blueh2);
+  font-size: 2rem;
+}
 
  .conf{
     text-align: center;
@@ -67,20 +83,35 @@ h1{
     text-align: center;
   }
   
-  p{
-    font-family: 'Montserrat', sans-serif;
-    color: var(--color-black);
-    font-size: 1rem;
-    line-height: 1.5rem;
+  .first{
+    padding-top: 3.8rem;
   }
 
   .list h3{
     color: var(--color-greenh3);
   }
   
-  .list h2{
-    color: var(--color-blueh2);
-    margin-top: 4rem;
+  .list1 h3{
+    color: var(--color-greenh3);
+  }
+
+  .list h3, .list1 h3{
+    margin-left: 1rem;
+  }
+
+  .detail h3{
+    margin-top: 0rem;
+  }
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  color: var(--color-black);
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+  .list p, .list1 p{
+    margin-left: 1rem;
   }
 
   footer p{

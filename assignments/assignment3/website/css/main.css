@@ -40,6 +40,10 @@ ul {
 
 nav {
   background-color: var(--color-lightblue);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 nav .logo {
@@ -71,6 +75,7 @@ nav ul li {
   align-items: center;
   flex-wrap: wrap;
   position: fixed;
+  z-index: 1;
   top: 0;
   right: 0;
   width: 45%;
@@ -98,9 +103,11 @@ nav ul li {
 /**
  * Navigation Toggle
  */
+
 .nav-toggler {
   display: inline-block;
   cursor: pointer;
+  z-index: 1;
 }
 
 @media (min-width: 768px) {
@@ -139,15 +146,25 @@ nav ul li {
   background-color: white;
 }
 
-/* Webpagina's */
+/**
+ * Webpagina's
+ */
 
-/* Homepagina */
+/**
+ * Homapagina
+ */
 
 .bannerafbeelding{
   object-fit: cover;
   width: 100%;
   height: 600px;
   object-position: center bottom;
+}
+
+.bannerafbeelding:hover{
+  -webkit-transform: scale(1.0);
+  transform: scale(1.0);
+  width: 100%;
 }
 
 .projecten img{
@@ -158,7 +175,9 @@ nav ul li {
   margin-bottom: 0.5rem;
 }
 
-/* Webshop */
+/**
+ * Webshop
+ */
 
 .keuze img{
   width: 100%;
@@ -173,7 +192,7 @@ nav ul li {
   margin-bottom: 12rem;
 }
 
-/* Webshop zwemgelegenheden/ accessoires */
+/* Webshop zwemgelegenheden / accessoires */
 
 .list img{
   width: 100%;
@@ -198,7 +217,86 @@ nav ul li {
   margin-bottom: 7.4rem;
 }
 
-/* Configuratie */
+/**
+ * Detail
+ */
+
+.detail img{
+  width: 100%;
+  height: 350px;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+.detail{
+  display: flex;
+  margin-top: 6rem;
+}
+
+.detail2 img{
+  width: 100%;
+  height: 100px;
+  border-radius: 1rem;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+  object-fit: cover;
+}
+
+.titel-inbegrepen{
+  background-color: var(--color-greenh3);
+  border-radius: 0.5rem;
+  color: white;
+  margin-left: 27rem;
+  margin-right: 27rem;
+  margin-bottom: -3rem;
+  margin-top: 4rem;
+  position: relative;
+}
+
+.titel-inbegrepen p{
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.7rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.inbegrepen{
+  background-color: #D7DCB2;
+  border-radius: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  align-content: center;
+}
+
+.inbegrepen p{
+  margin-left: 1rem;
+}
+
+.inbegrepen svg{
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+
+rect{
+  fill: #583D1D;
+}
+
+.opsomming{
+  display: flex;
+  flex-direction: row;
+  margin-top: -1rem;
+}
+
+.opsomming:first-child{
+  margin-top: 0.8rem
+}
+
+/**
+ * Configuratie
+ */
 
 .confp input{
   border-radius: 0.5rem;
@@ -206,6 +304,10 @@ nav ul li {
   width: 6rem;
   margin-left: 1rem;
   padding-left: 1rem;
+}
+
+.afmetingen{
+  text-align: center;
 }
 
 .dot1{
@@ -251,6 +353,10 @@ nav ul li {
   margin: 0.5rem;
 }
 
+.dot1:hover, .dot2:hover, .dot3:hover, .dot4:hover, .dot5:hover{
+  box-shadow: 3px 5px var(--color-lightblue);
+}
+
 .kleurtjes, .keuze-conf{
   text-align: center;
 }
@@ -261,17 +367,21 @@ nav ul li {
   margin-bottom: 4rem;
 }
 
-/* Realisaties */
+/**
+ * Realisaties
+ */
 
 .afbeeldingen-rea img{
   width: 100%;
-  height: 300px;
+  height: 250px;
   object-fit: cover;
   border-radius: 0.8rem;
   margin-top: 1rem;
 }
 
-/* Contact */
+/**
+ * Contact
+ */
 
 .container .contactformulier {
   background-color: #F2F2F2;
@@ -296,7 +406,7 @@ nav ul li {
 }
 
 .contactafb{
-  background: url(../images/photo-1560747571-79f71076f92f.jpg) no-repeat center center fixed;
+  background: url(../images/photo-1560747571-79f71076f92f.jpg) no-repeat center bottom fixed;
   background-size: cover;
 }
 
@@ -304,25 +414,6 @@ nav ul li {
   font-size: 1.5rem;
   margin-right: 0.5rem;
   color: var(--color-greenh3);
-}
-
-button{
-  border-radius: 0.5rem;
-  padding: 0.5rem 2rem;
-  font-size: 1.2rem;
-  background-color: #B9D0DE;
-  color: white;
-  font-weight: 500;
-  border: 1px solid #79A4BE;
-}
-
-button:hover{
-  background-color: var(--color-greenh3);
-}
-
-.knop{
-  text-align: center;
-  margin-bottom: 5rem;
 }
 
 .contactformulier .knop{
@@ -336,6 +427,8 @@ button:hover{
   background-color: var(--color-lightblue);
   margin-top: 9.8rem;
   padding: 1rem;
+  padding-left: 6rem;
+
 }
 
 .container-contact i{
@@ -348,7 +441,9 @@ button:hover{
   color:white;
 }
 
-/* Footer */
+/**
+ * Footer
+ */
 
 footer{
   display: flex;
@@ -362,4 +457,37 @@ footer{
   flex-direction: row;
   background-color: var(--color-darkblue);
   margin-top: 0rem;
+}
+
+/**
+ * Algemeen
+ */
+
+/* Afbeeldingen hovers */
+
+img:hover{
+  -webkit-transform: scale(1.3);
+  transform: scale(1.03);
+  width: 100%;
+}
+
+/* Buttons */
+
+button{
+  border-radius: 0.5rem;
+  padding: 0.5rem 2rem;
+  font-size: 1.5rem;
+  background-color: #B9D0DE;
+  color: white;
+  font-weight: 500;
+  border: 1px solid #79A4BE;
+}
+
+button:hover{
+  background-color: var(--color-greenh3);
+}
+
+.knop{
+  text-align: center;
+  margin-bottom: 5rem;
 }
